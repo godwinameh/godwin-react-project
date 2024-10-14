@@ -1,0 +1,19 @@
+.footer-bottom {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000;
+    padding: 20px 0;
+    /* margin-top: 20px; */
+    color: #d0ebe1;
+}
+
+.footer-bottom a {
+    color: #1aff8e;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #23d18b;
+}

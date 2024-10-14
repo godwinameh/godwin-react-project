@@ -1,0 +1,89 @@
+/* Open Account Section */
+.open-account-section {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0b3027; 
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('/path-to-background-pattern.png'); /* Add the background pattern if necessary */
+    background-size: cover;
+    background-position: center;
+}
+
+.open-account-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #11C170;
+}
+
+.open-account-section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #F3FCF8;
+}
+
+/* CTA Button */
+.cta-button {
+    background-color: #11C170;
+    font-size: 1.2rem;
+    color: #F3FCF8;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #F3FCF8;
+    color: #11C170; 
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .open-account-section h2 {
+        font-size: 2rem;
+    }
+
+    .open-account-section p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .open-account-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .open-account-section p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .open-account-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .open-account-section p {
+        font-size: 0.8rem;
+    }
+
+    .cta-button {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+}

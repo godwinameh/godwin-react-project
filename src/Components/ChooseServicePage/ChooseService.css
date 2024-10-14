@@ -1,0 +1,175 @@
+
+.service-wrap{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 30px;
+  font-family: "BRCandor", sans-serif;
+}
+.service-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    gap: 40px;
+    padding: 2rem;
+    max-width: 1170px;
+    width: 100%;
+  }
+  
+  .image-section {
+    max-width: 577px;
+    width: 100%;
+  }
+  
+  .image-section img {
+    width: 100%;
+  }
+  
+  .text-section {
+    max-width: 465px;
+    width: 100%;   
+  }
+  
+  .service-header h1 {
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: -1%;
+    font-weight: 700;
+    color: #223323;
+    margin-bottom: 10px;
+  }
+  
+  .service-header p {
+    font-size:18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #475548;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens 1024px and below */
+  @media (max-width:1024px) {
+    .service-wrap{
+      margin: 0 auto;
+      padding: 30px;
+    }
+    .service-container{
+      margin: 0 auto;
+      width: 100%;
+      padding: 30px;
+    }
+   
+    .image-section img{
+      width: 70%;
+    }
+    .text-section {
+      width: 100%;
+      top: 40px;
+      left: 50%;
+      
+    }
+  }
+  /* For screens 768px and below */
+@media (max-width: 768px) {
+  .service-container {
+    padding: 1.5rem;
+    flex-direction: column;
+
+  }
+  .text-section {
+    width: 100%;
+    bottom: 0;
+    top: 10;
+    left: 0;
+    
+  }
+  .text-section {
+    /* max-width: 100%; */
+    margin-bottom: 20px;
+  }
+
+  .image-section {
+    max-width: 70%;
+  }
+
+  .service-header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .service-header p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .service-wrap {
+    padding: 15px;
+  }
+
+  .service-container {
+    padding: 1rem;
+  }
+
+  .service-header h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .service-header p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .text-section {
+    padding: 0;
+    max-width: 100%;
+  }
+}
+
+/* For screens 375px and below */
+@media (max-width: 375px) {
+  .service-wrap {
+    padding: 10px;
+  }
+
+  .service-header h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .service-header p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .text-section {
+    padding: 0;
+    max-width: 100%;
+  }
+}
+
+/* For screens 315px and below */
+@media (max-width: 315px) {
+  .service-header h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .service-header p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .service-container {
+    padding: 0.5rem;
+  }
+}
+  
+  

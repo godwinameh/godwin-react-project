@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "BRCandor-light";
+    src: url("./fonts/br-candor/BRCandor-Light-BF6551984540128.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BRCandor-bold";
+    src: url("./fonts/br-candor/BRCandor-Black-BF655198441e922.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+.brcandor-light {
+    font-family: "BRCandor-light", sans-serif;
+}
+
+.brcandor-bold {
+    font-family: "BRCandor-bold", sans-serif;
+}
