@@ -1,6 +1,6 @@
 import React from "react";
 import './NewsFeed.css';
-import newsImage from '../../assets/newsImage.svg';
+import newsImage from '../../assets/NewsImage.svg';
 import farmerImage from '../../assets/farmerImage.svg'
 import catImage from '../../assets/catImage.svg'
 import card from '../../assets/card.svg'
