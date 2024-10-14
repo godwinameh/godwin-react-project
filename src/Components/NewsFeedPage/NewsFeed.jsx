@@ -1,6 +1,6 @@
 import React from "react";
 import './NewsFeed.css';
-import newsImage from '../../assets/NewsImage.svg';
+import NewsImage from '../../assets/NewsImage.svg';
 import farmerImage from '../../assets/farmerImage.svg'
 import catImage from '../../assets/catImage.svg'
 import card from '../../assets/card.svg'
@@ -15,7 +15,7 @@ const NewsFeed = () => {
       <div className="news-feed-container">
       <div className="news-grid">
         <div className="news-card">
-          <img src={newsImage} alt="News" />
+          <img src={NewsImage} alt="News" />
           <div className="text-link">
             <p className="underline">By Salihu</p>
             <p>16/8/2022</p>
