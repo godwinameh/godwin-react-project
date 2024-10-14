@@ -1,7 +1,7 @@
 
 import './BankWithUs.css';
 import { FaClockRotateLeft } from "react-icons/fa6";
-import phoneImage from '../../assets/images/phoneImage.png';
+import phoneImage from '../../assets/phoneImage.svg';
 import apple from '../../assets/apple.svg'
 import google from '../../assets/google.svg'
 import securityicon from '../../assets/securityicon.svg'
