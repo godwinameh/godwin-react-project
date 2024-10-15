@@ -25,10 +25,10 @@ const NavBar = () => {
         <ul className={`nav-menu ${menuOpen ? "active" : ""}`}>
           <li><Link to="/">Home</Link></li>
           <li className='dropdown'><Link to="/about">About Us <MdOutlineArrowDropDown /></Link></li>
-          <li className='dropdown'><Link to="/products">Products <MdOutlineArrowDropDown /></Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
-          <li><Link to="/services">E-Channel Services</Link></li>
-          <li><Link to="/news">News Feed</Link></li>
+          <li className='dropdown'><Link to="#">Products <MdOutlineArrowDropDown /></Link></li>
+          <li><Link to="#">Portfolio</Link></li>
+          <li><Link to="#">E-Channel Services</Link></li>
+          <li><Link to="#">News Feed</Link></li>
         </ul>
       </div>
     </nav>
