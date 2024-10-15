@@ -5,6 +5,9 @@ import AboutPage from '../../Components/AboutPage/AboutPage'
 import AboutSection from '../../Components/AboutSection'
 import Multi from '../../Components/MultiPage/Multi'
 import TeamPlayer from '../../Components/TeamPlayer/TeamPlayer'
+import OpenAccount from '../../Components/OpenAccountPage/OpenAccount'
+import FooterPage from '../../Components/FooterPage/FooterPage'
+
 
 const AboutUs = () => {
   return (
@@ -13,7 +16,6 @@ const AboutUs = () => {
         {/* <HeroAbout/> */}
         <AboutPage/>
         <Multi/>
-        {/* <TeamPage/> */}
         <TeamPlayer/>
         <Testimonial/>
         <OpenAccount/>
