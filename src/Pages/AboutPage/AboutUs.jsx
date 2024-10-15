@@ -16,6 +16,8 @@ const AboutUs = () => {
         {/* <TeamPage/> */}
         <TeamPlayer/>
         <Testimonial/>
+        <OpenAccount/>
+        <FooterPage/>
     </div>
   )
 }
