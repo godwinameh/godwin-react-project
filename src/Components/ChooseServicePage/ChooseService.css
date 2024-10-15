@@ -22,11 +22,11 @@
   
   .image-section {
     max-width: 577px;
-    width: 50%;
+    width: 100%;
   }
   
   .image-section img {
-    width: 50%;
+    width: 100%;
   }
   
   .text-section {
