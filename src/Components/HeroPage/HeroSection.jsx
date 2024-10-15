@@ -6,14 +6,14 @@ import './HeroSection.css';
 const HeroSection = () => {
   return (
       <div className="hero-container">
-            <section className="hero-section ">
+    <section className="hero-section ">
       <div className="hero-content">
         <h1>
-          Enjoy a <br />
-          <span className="highlight">unique banking</span> <br /> experience
+          Enjoy a 
+          <span className="highlight"> <br /> unique banking <br /></span> experience
         </h1>
         <p>
-          Microfinance bank for you, supporting smallholder <br />
+          Microfinance bank for you, supporting smallholder
           farmers through co-operative micro-lending.
         </p>
         <div className="hero-buttons">
@@ -24,7 +24,7 @@ const HeroSection = () => {
       <div className="hero-image">
         <img src={manWithBanana} alt="Farmer" />
       </div>
-    </section>
+        </section>
       </div>
   );
 };

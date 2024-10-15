@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #F3FCF8;
   font-family: "BRCandor", sans-serif;
 }
 .partners-container {
@@ -88,6 +89,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10%;
     width: 100%;
     margin-bottom: 3rem;
   }

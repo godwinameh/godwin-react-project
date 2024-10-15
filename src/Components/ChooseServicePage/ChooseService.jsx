@@ -4,7 +4,7 @@ import mapImage from '../../assets/mapImage.svg';
 
 const ChooseService = () => {
   return (
-    <div className="service-wrap">
+    <div className="over-services">
       <div className="service-container">
       <div className="image-section">
         <img src={mapImage} alt="World Map" />

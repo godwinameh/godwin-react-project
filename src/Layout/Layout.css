@@ -1,5 +1,6 @@
 main {
     min-height: 100vh;
+    overflow-y: auto;
     /* padding: 20px; */
   }
   /* Ensure the body takes full height */
@@ -10,13 +11,8 @@ html, body {
   
   /* The content container that holds the Outlet */
   .content-container {
-    background-color: #F3FCF8;
     margin-top: 80px;
-    /* margin-bottom: 60px; */
-    /* padding: 20px; */
-    /* overflow-y: auto; */
-    /* overflow-x: hidden; */
-    height: calc(100vh - 140px);
+    /* height: calc(100vh - 140px); */
   }
   
   /* Navbar styling to be fixed at the top */

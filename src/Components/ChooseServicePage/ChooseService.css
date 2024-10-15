@@ -1,36 +1,39 @@
 
-.service-wrap{
+.over-service{
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   margin-top: 20px;
   padding: 30px;
+  background-color: #F3FCF8;
   font-family: "BRCandor", sans-serif;
 }
 .service-container {
     display: flex;
     justify-content:center;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     gap: 40px;
-    padding: 2rem;
+    padding: 4.5rem;
     max-width: 1170px;
     width: 100%;
   }
   
   .image-section {
     max-width: 577px;
-    width: 100%;
+    width: 50%;
   }
   
   .image-section img {
-    width: 100%;
+    width: 50%;
   }
   
   .text-section {
     max-width: 465px;
-    width: 100%;   
+    width: 100%; 
+    margin-bottom: 5rem;
+
   }
   
   .service-header h1 {
@@ -39,7 +42,7 @@
     letter-spacing: -1%;
     font-weight: 700;
     color: #223323;
-    margin-bottom: 10px;
+    /* margin-bottom: ; */
   }
   
   .service-header p {

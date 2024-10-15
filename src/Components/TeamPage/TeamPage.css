@@ -1,4 +1,39 @@
 
+
+.access-container {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+
+.icon {
+  color: #f97316; /* Orange color */
+  font-size: 24px;
+}
+
+.icon-svg {
+  height: 24px;
+  width: 24px;
+}
+
+.content {
+  color: #374151; /* Gray color for text */
+}
+
+.title {
+  color: #f97316;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5;
+  margin: 0;
+  color: #374151;
+}
+
 .team-page {
     display: grid;
     grid-template-columns: 1fr 2fr;

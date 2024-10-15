@@ -11,10 +11,14 @@ import Testimonial from '../../Components/TestimonialPage/Testimonial'
 import OpenAccount from '../../Components/OpenAccountPage/OpenAccount'
 import FooterPage from '../../Components/FooterPage/FooterPage'
 import PartFooter from '../../Components/PartFooter/PartFooter'
+import TeamPage from '../../Components/TeamPage/TeamPage'
+import BankFeatures from '../../Components/BankFeatures'
+
 
 const Home = () => {
   return (
     <div>
+      {/* <BankFeatures/> */}
       <HeroSection/>
       <OurService/>
       <BankWithUs/>
