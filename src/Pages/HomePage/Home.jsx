@@ -13,9 +13,11 @@ import FooterPage from '../../Components/FooterPage/FooterPage'
 import PartFooter from '../../Components/PartFooter/PartFooter'
 import TeamPage from '../../Components/TeamPage/TeamPage'
 import BankFeatures from '../../Components/BankFeatures'
+// import Testimonial from '../../Components/Testimonial';
 
 
 const Home = () => {
+
   return (
     <div>
       {/* <BankFeatures/> */}
@@ -27,7 +29,7 @@ const Home = () => {
       <Offers/>
       <NewsFeed/>
       <BusinessPage/>
-      <Testimonial/>
+      <Testimonial page="Home" titleColor="#11C170"/>
       <OpenAccount/>
       <FooterPage/>
       {/* <PartFooter/> */}

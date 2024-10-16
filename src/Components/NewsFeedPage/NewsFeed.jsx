@@ -32,8 +32,10 @@ const NewsFeed = () => {
             <p className="underline">By Salihu</p>
             <p>16/8/2022</p>
           </div>
-          <h4  className="card-text">Getting your loan as a small scale farmer </h4>
-          <p className="para">Customer can pay for product and services at anytime and any where through our single click payment channenl...</p>
+            <div className="card-text">
+            <h4>Getting your loan as a small scale farmer </h4>
+            <p>Customer can pay for product and services at anytime and any where through our single click payment channenl...</p>
+            </div>
           <button className="btn-feed">read more</button>
         </div>
         <div className="news-card">
@@ -42,8 +44,10 @@ const NewsFeed = () => {
             <p className="underline">By Salihu</p>
             <p>16/8/2022</p>
           </div>
-          <h4  className="card-text">What saving with us feel like</h4>
-          <p className="para">Customer can pay for products and services at anytime and anywhere through our single click payment channels...</p>
+            <div className="card-text">
+            <h4>What saving with us feel like</h4>
+            <p>Customer can pay for products and services at anytime and anywhere through our single click payment channels...</p>
+            </div>
           <button className="btn-feed">read more</button>
         </div>
         <div className="news-card">
@@ -52,8 +56,10 @@ const NewsFeed = () => {
             <p className="underline">By Salihu</p>
             <p>16/8/2022</p>
           </div>
-          <h4  className="card-text">Welcome to first mulyiple Micro financal Bank</h4>
-          <p className="para">Customer can pay for products and services at anytime and anywhere through our single click payment channels...</p>
+            <div className="card-text">
+            <h4  className="card-text">Welcome to first mulyiple Micro financal Bank</h4>
+            <p>Customer can pay for products and services at anytime and anywhere through our single click payment channels...</p>
+            </div>
           <button className="btn-feed">read more</button>
         </div>
       </div>

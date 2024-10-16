@@ -35,8 +35,7 @@ const BankWithUs = () => {
           </div>
           <div className="feature blue">
             <div className="icon-blue">
-            {/* <IoSettingsOutline /> */}
-              <img src={settingicon} alt="icon" style={{width:'100px', height:'100px'}}/>
+              <img src={settingicon} alt="icon" style={{width:'100px'}}/>
             </div>
               <div className="feature-text">
               <h3 className='text-[#4771FF]'>Optimizing Your Money</h3>

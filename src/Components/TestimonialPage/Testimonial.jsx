@@ -5,7 +5,6 @@ import testimonial from '../../assets/testimonial.svg';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-
 const testimonials = [
     {
         id: 1,
@@ -44,7 +43,8 @@ const testimonials = [
     },
 ];
 
-const Testimonial = () => {
+const Testimonial = ({page}) => {
+    const titleColor = page === "about" ? "#11C170" : "#223323";
     const settings = {
         arrows: true,
         dots: true,
@@ -81,8 +81,8 @@ const Testimonial = () => {
 
     return (
         <div className="testimonial-container">
-                    <div className="testimonial-section">
-            <h2 className="section-title brcandor-bold font-[ #223323]">Testimonials</h2>
+            <div className="testimonial-section">
+            <h2 className="section-title brcandor-bold" style={{ color: titleColor }}>Testimonials</h2>
             <p className="section-subtitle py-6">Don't just take our words for it, read what people are <br /> saying about us.</p>
             
             
