@@ -114,9 +114,7 @@
 /* Media Queries */
 
 /* For tablets and smaller desktops (up to 1024px) */
-@media (max-width:1300px) {
-  
-}
+
 @media (min-width:1300px) {
   .bank-image {
     max-width: 580px;

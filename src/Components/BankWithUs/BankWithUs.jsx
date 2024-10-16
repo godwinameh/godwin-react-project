@@ -6,7 +6,6 @@ import apple from '../../assets/apple.svg'
 import google from '../../assets/google.svg'
 import securityicon from '../../assets/securityicon.svg'
 import settingicon from '../../assets/settingicon.svg'
-import { IoSettingsOutline } from "react-icons/io5";
 
 
 
