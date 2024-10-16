@@ -53,7 +53,7 @@ const Testimonial = ({page}) => {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true, 
-        autoplaySpeed: 1000, 
+        autoplaySpeed: 5000, 
         prevArrow: <button className="custom-prev-arrow">⬅️</button>,
         nextArrow: <button className="custom-next-arrow">➡️</button>,
         responsive: [
