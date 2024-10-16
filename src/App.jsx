@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 import Layout from './Layout/Layout'
 import Home from './Pages/HomePage/Home'
 import AboutUs from './Pages/AboutPage/AboutUs'
+import AccountOpeningForm from './Pages/AccountOpeningForm/AccountOpeningForm'
 
 
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
         path: '/about',
         element:<AboutUs/>
       },
+      {
+        path:'/accountopeningform',
+        element:<AccountOpeningForm/>
+      }
     ]
   }
 ])

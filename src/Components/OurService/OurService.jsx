@@ -6,6 +6,7 @@ import account from '../../assets/account.svg';
 import agricloan from '../../assets/agricloan.svg';
 import loan from '../../assets/loan.svg';
 import buzloan from '../../assets/buzloan.svg';
+import 'animate.css'
 
 const OurService = () => {
   return (
@@ -24,7 +25,7 @@ const OurService = () => {
         <div className="service-wrap">
           <div className="service-item">
             <div className="img-icon">
-              <img src={kobo} alt="Kobo Icon" />
+              <img src={kobo} alt="Kobo Icon" class="animate__animated animate__zoomInDown"/>
             </div>
             <div className="text">
               <h3>KoboWeb Pay</h3>
@@ -36,7 +37,7 @@ const OurService = () => {
           </div>
           <div className="service-item">
             <div className="img-icon">
-              <img src={money} alt="Money Icon" />
+              <img src={money} alt="Money Icon" class="animate__animated animate__zoomInDown" />
             </div>
             <div className="text">
               <h3>Money Transfer</h3>
@@ -48,7 +49,7 @@ const OurService = () => {
         <div className="service-wrap">
           <div className="service-item">
             <div className="img-icon">
-              <img src={account} alt="Account Icon" />
+              <img src={account} alt="Account Icon" class="animate__animated animate__zoomInDown" />
             </div>
             <div className="text">
               <h3>Savings Accounts</h3>
@@ -57,7 +58,7 @@ const OurService = () => {
           </div>
           <div className="service-item">
             <div className="img-icon">
-              <img src={agricloan} alt="Agriculture Loan Icon" />
+              <img src={agricloan} alt="Agriculture Loan Icon" class="animate__animated animate__zoomInDown" />
             </div>
             <div className="text">
               <h3>Agriculture Loans</h3>

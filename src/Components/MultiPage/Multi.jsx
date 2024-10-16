@@ -7,7 +7,7 @@ const Multi = () => {
     <div className="main-container">
         <div className="multi">
             <div className="image-container">
-                <img src={girl} alt="girl image" />
+                <img src={girl} alt="girl image" class="animate__animated animate__bounce"/>
             </div>
             <div className="container-text">
                 <h1>At First Multiple,
