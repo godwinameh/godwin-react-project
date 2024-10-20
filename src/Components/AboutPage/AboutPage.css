@@ -1,0 +1,58 @@
+
+.hero-about-container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-page {
+    background-color: #F3FCF8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .about-section {
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+  
+  .about-section h2 {
+    color: #11C170;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2%;
+    margin-bottom: 16px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #475548;
+    font-weight: 400;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 1200px) {
+    .about-page {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-page {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .about-section h2 {
+      font-size: 20px;
+    }
+  
+    .about-section p {
+      font-size: 14px;
+    }
+  }
+  

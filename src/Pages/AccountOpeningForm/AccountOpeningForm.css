@@ -1,0 +1,111 @@
+/* Basic Styling */
+.form-container {
+    font-family:"BR Candor", sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.logo-form {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #11C170;
+    background-color:#fff;
+}
+.logo-form h2{
+    font-size: 28px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #F3FCF8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 1024px) {
+    .form-container {
+        max-width: 500px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,240 @@
+/* Container for the whole section */
+.mobile-banking-container {
+  background-color: #D5F3E5;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "BR Candor", sans-serif;
+}
+
+/* The main container wrapping both text and image */
+.both-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+/* Heading and subtitle */
+.both-container h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: -1%;
+  line-height: 50px;
+  color: #223323;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.both-container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #111A12;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Content section with features and image */
+.mobile-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+  gap: 50px;
+  background-color:#fff;
+
+}
+
+/* Features section */
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 4rem;
+  max-width: 600px;
+}
+
+.feature-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+.feature-item h3{
+  text-align: start;
+  font-size: 22px;
+  line-height: 27.19px;
+  font-weight: 400;
+}
+.feature-item p{
+  text-align: start;
+  line-height: 28px;
+  color: #475548;
+  font-size: 16px;
+  font-weight: 400;
+}
+.icon {
+  font-size: 2rem;
+}
+
+/* Image and app buttons section */
+.phoneimage-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  transform: translateY(-40px);
+}
+
+.phone-image {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.app-btn {
+  display: flex;
+  gap: 15px;
+  padding: 0 1rem;
+}
+
+.app-btn img {
+  max-width: 150px;
+  cursor: pointer;
+}
+
+/* Responsive design */
+
+/* Large Desktop */
+@media screen and (min-width: 1600px) {
+  
+
+  .phone-image {
+    max-width: 350px;
+  }
+
+  .app-btn img {
+    max-width: 170px;
+  }
+}
+
+/* Standard Desktop */
+@media screen and (max-width: 1200px) {
+  .mobile-content {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .features {
+    gap: 30px;
+  }
+
+  .phone-image {
+    max-width: 300px;
+  }
+
+  .app-btn img {
+    max-width: 150px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .mobile-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .features {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .phone-image {
+    max-width: 280px;
+  }
+
+  .app-btn img {
+    max-width: 130px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .mobile-banking-container{
+    padding: 1.5rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .features h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .features p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .icon {
+    font-size: 2rem;
+    margin-top: 1rem;
+
+  }
+  .features {
+    gap: 15px;
+    padding:0 1rem;
+    
+  }
+
+  .feature-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .feature-item p {
+    font-size: 0.9rem;
+  }
+
+  .phone-image {
+    max-width: 220px;
+  }
+
+  .app-btn img {
+    max-width: 120px;
+  }
+  .app-btn {
+    display: flex;
+    gap: 10px;
+    padding: 0 2rem;
+    align-items:center;
+    justify-content: center;
+  }
+}
+
+/* Smallest Devices */
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .phone-image {
+    max-width: 200px;
+  }
+
+  .app-btn img {
+    max-width: 100px;
+  }
+}

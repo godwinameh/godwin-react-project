@@ -1,0 +1,172 @@
+.hero-container{
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  background-color: #F3FCF8;
+}
+.hero-section {
+    font-family: "brcandor-light", sans-serif;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1083px;
+    padding:40px;
+    width: 100%;
+  }
+  
+  .hero-content {
+    max-width: 503px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .hero-content h1 {
+    font-size:50px ;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -2%;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .hero-content p {
+    font-size:18px ;
+    font-weight: 400;
+    line-height: 30px;
+    color: #475548;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  .highlight {
+    color: #11C170 ;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+    max-width:426px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    max-width: 201px;
+    width: 100%;
+    max-height: 56px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .btn-open {
+    background-color: #11C170;
+    color: #F3FCF8;
+  }
+  
+  .btn-request {
+    background-color: #F3FCF8;
+    color:#223323;
+    border: 1px solid #00a859;
+  }
+  .hero-image{
+    max-width: 580px;
+  }
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* In your HeroSection.css or main CSS file */
+.account-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure it's on top */
+}
+
+.account-form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-form {
+  background: none;
+  color: #00a859;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+  @media (max-width:1024px) {
+   
+  }
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      margin-top: 14%;
+    }
+   
+    .hero-buttons{
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width:678px) {
+
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-content {
+      max-width: 100%;
+    }
+    .hero-content h1{
+      padding: 10px;
+      font-size: 32.84px;
+      line-height: 35px;
+    }
+    .hero-content p{
+      padding: 10px;
+      font-size: 16px;
+      line-height: 23.36px;
+    }
+    .hero-buttons{
+      margin-bottom: 10px;
+      
+    }
+    .hero-buttons {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 500;
+      flex-direction: column;
+    }
+    
+    .btn {
+      margin-top: 20px;
+      } 
+     
+
+  }
+  

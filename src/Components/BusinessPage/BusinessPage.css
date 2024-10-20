@@ -1,0 +1,235 @@
+
+.container-business{
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  background-color: #f8fafb;
+  font-family: "BRCandor", sans-serif;
+}
+.business-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px;
+    margin-top: 100px;
+    margin: auto;
+    max-width: 1185px;
+    width: 100%;
+  }
+  /* Business Section: Image + Content */
+  .business-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+  }
+  
+  .buz-image-container img {
+    max-width: 580px;
+    width: 100%;
+  }
+  
+  .buz-contentPage{
+    max-width: 604px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 80%;
+    max-height: 370px;
+    background-color: #F88347;
+    padding: 30px;
+  }
+  .buz-text-content{
+    max-width: 405px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .buz-text-content h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #F3FCF8;
+    line-height: 33px;
+    margin-bottom:20px;
+  }
+
+  
+  .buz-text-content p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #F3FCF8;
+    margin-top:30px;
+  }
+  
+  .stats-section {
+    max-width: 982px;
+    width: 100%;
+    gap: 74px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .stat-card {
+    max-width: 278px;
+    width: 100%;
+    height: 262px;
+     flex: 1; 
+    padding: 30px;
+    border: 2px solid #000;
+    text-align: center;
+  }
+  .stat-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .stat-card img{
+    max-width: 56.67px;
+    width: 70%;
+    color: #F88347;
+    transform: translateX(100px);
+    margin-bottom: 10px;
+  }
+  
+  .stat-card h3 {
+    font-size:48px;
+    line-height: 46.6px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-card p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+ 
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+  .buz-contentPage {
+    font-size: 14px;
+  }
+
+  .stat-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .stat-card h3 {
+    font-size: 24px;
+  }
+
+  .stat-card p {
+    font-size: 12px;
+  }
+}
+  
+  /* Media Queries */
+   @media (max-width: 1024px) {
+    .buz-image-container img {
+      width: 100%;
+      height: 0%;
+    }
+  
+    .buz-contentPage{
+      /* max-width: 04px; */
+      width: 100%;
+      /* height: 100%; */
+    }
+    .buz-text-content{
+      width: 80%;
+      height: 100%;
+    }
+    .buz-text-content h2{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    
+  .buz-text-content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom:20px;
+  }
+} 
+
+ @media (max-width:768px) {
+ 
+   .business-section {
+    flex-direction: column;
+   margin: 0;
+  }
+    .buz-image-container img {
+      max-width: 580px;
+      width: 100%;
+    }
+    
+    .buz-contentPage{
+      width: 100%;
+    }
+    .buz-text-content{
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .buz-text-content h2{
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 20px;
+    } 
+    .buz-text-content p{
+      font-size: 20px;
+      line-height: 30px;
+    } 
+    
+    /* Stats Section */
+    .stats-section {
+      width: 100%;
+      gap: 40px;
+  
+    }
+    
+    .stat-card img{
+      transform: translateX(20px);
+    }
+      
+    .stat-card p {
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+    } 
+ }
+
+ @media (max-width:425px) {
+    .buz-image-container img {
+      max-width: 580px;
+      width: 100%;
+    }
+    .business-page{
+      padding: 0;
+    }
+    
+    .buz-text-content h2{
+      font-size: 23px;
+      line-height: 34px;
+    } 
+    .buz-text-content p{
+      font-size: 16px;
+      line-height: 23px;
+    }
+    .buz-contentPage{
+      width: 100%;
+    } 
+    /* Stats Section */
+    .stats-section {     
+      flex-direction: column;
+    }   
+    .stat-card img{
+      transform: translateX(70px);
+    }
+
+ }

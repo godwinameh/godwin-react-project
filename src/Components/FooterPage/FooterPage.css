@@ -1,0 +1,218 @@
+/* General Footer Styles */
+.footer-section {
+    font-family: "BRCandor", sans-serif;
+  }
+  
+  .footer-container {
+    background-color: #058054;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo-section {
+    flex: 1 1 250px;
+    margin-top: 30px;
+  }
+  
+  .footer-logo {
+    max-width: 180px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo-section p {
+    font-size: 12px;
+    line-height: 19.84px;
+    font-weight: 400;
+    text-align: start;
+    margin: 0;
+    color: #F3FCF8;
+  }
+  
+  .footer-links {
+    margin-top: 30px;
+    display: flex;
+    flex: 2 1 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-text h4 {
+    color: #F3FCF8;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+  
+  .footer-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-text ul li {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .footer-text ul li a {
+    text-decoration: none;
+    color: #F3FCF8;
+    font-size: 14px;
+    line-height: 22px;
+  }
+ 
+  .footer-text ul li a:hover {
+    color:  #F3FCF8;
+  }
+  
+  /* Footer Contact Section */
+  .footer-contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-top: 2px solid #60D6A0;
+    padding-top: 20px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .email a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .footer-info h4 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #F3FCF8;
+  }
+  
+  .footer-info ul.info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-info ul.info li {
+    font-size: 12px;
+    line-height: 15.84px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-info ul.info .water,
+  .footer-info ul.info .phone,
+  .footer-info ul.info .email {
+    color: #F3FCF8;
+  }
+  
+  .footer-info ul.info .email a {
+    text-decoration: none;
+    color: #F3FCF8;
+  }
+  
+  .footer-info ul.info .email a:hover {
+    color: #d1e7dc;
+  }
+  
+  /* Footer Social Media Section */
+  .footer-socials {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .footer-socials h4 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #F3FCF8;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #058054;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+    background-color: #F3FCF8;
+  }
+  
+  .social-icons a:hover {
+    color: #F3FCF8;
+    background-color: #058054;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    background-color: #223323;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #F3FCF8;
+  }
+  
+  .footer-bottom a {
+    color: #F3FCF8;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    color: #F3FCF8;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content, .footer-contact-section {
+      flex-direction: column;
+    }
+    .footer-logo-section {
+
+    }
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        /* margin-bottom: 100%; */
+      }
+      .footer-contact-section{
+        /* margin-bottom: 100%; */
+      }
+      .info{
+        flex-direction: column;
+      }
+  }
+  
